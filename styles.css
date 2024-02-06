@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+.parchment {
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    margin: 2em 1em;
+    padding: 4.5em;
+    font-family: Diphylleia;
+    border-radius: 5px;
+}
+
+.parchment p {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .parchment {
+        padding: 3.5em;
+    }
+
+    .parchment p {
+        font-size: 20px;
+    }
+}
