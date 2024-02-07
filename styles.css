@@ -2,6 +2,10 @@
 
 body {
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
@@ -33,6 +37,11 @@ body {
 
 .scroll-list {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 .scroll {
@@ -41,8 +50,10 @@ body {
     text-align: center;
     box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
     background: #fffef0;
-    margin: 25px;
     border-radius: 5px;
+    width: 50%;
+    position: relative;
+    margin: 25px 0px;
 }
 
 .scroll:hover {
@@ -99,6 +110,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .scroll {
+        width: 80%;
+    }
+    
     .parchment {
         padding: 3.5em;
     }
