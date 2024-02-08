@@ -87,9 +87,10 @@ body {
 
 .nav-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 25px;
+    width: 100%;
 }
 
 .nav-btn {
